@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <form>
+            <tr>
+            <td>
+                <label for="fname"> <b>ชื่อ</b>  </label> 
+            </td>
+                
+            <td>
+                <input type="text" id="fname" name="fname"> 
+            </td> 
+            </tr>
+        <tr>
+            <td>
+                <label for="lname"><b>นามสกุล</b> </label>
+            </td>
+            <td>
+                <input type="text" id="lname" name="lname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="birthday"><b>วัน/เดือน/ปีเกิด</b></label>
+            </td>
+            <td>
+                <input type="date" id="birthday" name="birthday">
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label for="age"><b>อายุ</b> </label>
+            </td>
+            <td>
+                <input type="text" id="age" name="age">
+            </td>
+        </tr>
+    <tr>
+        <td>
+            <label for="sex"><b>เพศ</b> </label>  
+        </td>
+        <td>
+            <input type="radio" id="male" value="male" name="radio_test">
+            <label for="male"><b>ชาย</b> </label>
+            <input type="radio" id="woman" value="woman" name="radio_test">
+            <label for="woman"><b>หญิง </b> </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="image"><b>รูป</b></label>
+        </td>
+        <td>
+            <input type="file" id="image" name="image">
+        </td>
+    </tr>
+     
+    <tr>
+        <td>
+            <label for="address"><b>ที่อยู่</b></label> 
+        </td>
+        <td>
+            <textarea rows="8" cols="30"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="color"><b>สีที่ชอบ</b></label>
+        </td>
+        <td>
+            <select id="color" name="color" size="1">
+                <option value="red">สีแดง</option>
+                <option value="green">สีเขียว</option>
+                <option value="blue">สีน้ำเงิน</option>
+                <option value="black">สีดำ</option>
+                <option value="white">สีขาว</option>
+            </select>
+        </td>
+    </tr>
+    
+    <tr>
+        <td>
+            <label for="song"><b>แนวเพลง</b></label> 
+        </td>
+        <td>
+            <input type="radio" id="K-POP" value="K-POP" name="radio_test">
+            <label for="K-POP"><b>K-POP</b> </label>
+            <input type="radio" id="j-POP" value="j-POP" name="radio_test">
+            <label for="J-POP"><b>J-POP</b> </label>
+            <input type="radio" id="other" value="other" name="radio_test">
+            <label for="other"><b>อื่นๆ</b></label> 
+        </td>
+    </tr>
+    <tr>
+        <br>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="agree" name="agree"> <label for="agree"><b>ยินยอมให้เก็บข้อมูล</b></label> 
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <input type="reset" >
+        </td>
+        <td>
+            <input type="submit" >
+        </td>
+
+    </tr>
+   </form>
+   </table>
+</body>
+</html>
