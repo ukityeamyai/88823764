@@ -1,0 +1,57 @@
+h1{
+    color: black;
+}
+#myh1{
+    font-size: 50px;
+    color: yellow;
+    
+}
+
+.header{
+    color: aquamarine;
+}
+
+.header_center{
+    color: brown;
+}
+
+.center{
+    text-align: center;
+}
+
+*{
+    font-family: myfont,Arial, Helvetica, sans-serif;
+
+}
+@font-face {
+    font-family: myfont;
+    font-style: italic;
+    src: url(../font/DancingScript-Bold.ttf);
+}
+
+.mybox{
+    overflow: hidden;
+    overflow: scroll;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+.mybox2{
+    background-color: yellow;
+    border-top-color:red ;
+    
+}
+
+.mybox2:hover{
+    background-color: darkgreen;
+}
+
+.mybox:active{
+    background-color: crimson;
+}
+
